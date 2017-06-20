@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+body{
+	font-size: 16px;
+	line-height: 18px;
+	font-family: arial;
+}
+.wrapper{
+	width: 900px;
+	margin: 0 auto;
+	background: #f2f2f2 none repeat scroll 0 0;
+}
+.header,.footer{
+	background: #565656 none repeat scroll 0 0;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+}
+.header h3{
+	font-size: 25px;
+	padding: 10px;
+}
+.mainmenu{
+	margin-top: 3px;
+	overflow: hidden;
+}
+.mainmenu ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.mainmenu ul li{
+	display: block;
+	float: left;
+}
+.mainmenu ul li a{
+	background: #818181;
+	color: #fff;
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 2px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+.mainmenu ul li a:hover{
+	background: #666;
+}
+.content{
+	border-bottom: 2px solid #c3c3c3;
+	border-top: 2px solid #c3c3c3;
+	min-height: 300px;
+	overflow: hidden;
+	padding: 30px;
+}
+.content h2{
+	background: #ddd;
+	border: 1px solid #c9c9c9;
+	color: #444;
+	margin-bottom: 20px;
+	margin-left: 235px;
+	padding: 10px;
+	width: 350px;
+	text-align: center
+}
+.msg{
+	text-align: center;
+	width: 350px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.login_reg{
+	width: 425px;
+	background: #e7e7e7;
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+	margin: 0 auto;
+	font-size: 16px;
+	overflow: hidden;
+	padding: 20px;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+	border: 1px solid #d5d5d5;
+	margin-bottom: 6px;
+	margin-left: 10px;
+	width: 285px;
+	padding: 5px;
+}
+input[type="submit"],input[type="reset"]{
+	background: #888;
+	border: 1px solid #626262;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 5px;
+	float: right;
+	margin-right: 4px;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+	background: #333;
+}
+.back{
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.userlist{
+	background: #fff;
+	border: 1px solid #ddd;
+	color: #3399ff;
+	font-weight: bold;
+	margin: 0 auto 8px;
+	text-align: center;
+	overflow: hidden;
+	padding: 4px 10px;
+	width: 350px;
+}
+table.tbl_one{
+	margin: 0 auto;
+	
+}
+table.tbl_one tr th{
+	background: #888;
+	color: #fff;
+	padding: 3px 32px;
+	text-shadow: 1px 1px 2px #000;
+	text-align: center;
+	width: 350px;
+}
+table.tbl_one tr:nth-child(2n+1){
+	background: #e8e5e5;
+	height: 30px;
+	
+}
+table.tbl_one tr:nth-child(2n){
+	background: #ddd;
+	height: 30px;
+	
+}
+table.tbl_one tr td{
+        color: #009bda;
+	text-decoration: none;
+  	text-align: center;
+}
+table.tbl_one tr td a{
+        color: #009bda;
+	text-decoration: none;
+}
+table.tbl_one tr td a:hover{
+        color: #003972;
+	text-decoration: none;
+	
+}
+.login_msg{
+	background: #43a322;
+	color: #fff;
+	display: block;
+	line-height: 30px;
+	margin: 0 auto 10px;
+	text-align: center;
+	width: 357px;
+}
